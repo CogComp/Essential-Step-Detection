@@ -1,0 +1,145 @@
+<!-- You must include this JavaScript file -->
+<script src="https://assets.crowd.aws/crowd-html-elements.js"></script>
+
+<!-- For the full list of available Crowd HTML Elements and their input/output documentation,
+      please refer to https://docs.aws.amazon.com/sagemaker/latest/dg/sms-ui-template-reference.html -->
+
+<!-- You must include crowd-form so that your task submits answers to MTurk -->
+
+
+<style>
+
+    cand {
+        color: #0000FF;
+    }
+
+    candT {
+        color: #059008;
+    }
+
+    candF {
+        color: #FF0000;
+    }
+
+    pron {
+        color: #0000FF;
+    }
+
+</style>
+
+
+<crowd-form answer-format="flatten-objects">
+
+
+    <crowd-instructions link-text="View instructions" link-type="button">
+        <short-summary>
+            <p>In this task, you are given a process name and a list of steps to complete this process. You are required
+                to determine if a step is essential for completing the process or not. A step is essential if without
+                it, it is impossible to finish the process.</p>
+        </short-summary>
+
+        <detailed-instructions>
+            <h3>For each provided process that is associated with 5 steps, you need to answer the following three types
+                of questions.</h3>
+            <ul>
+                <li>Question type 1: Are you familiar with this process or not. If yes, please click the box. (You will
+                    also get the full reward even if you are not familiar with this task, so please answer it honestly)
+                </li>
+                <li>Question type 2: Indicate how essential is each step in your mind.
+                    <ul>
+                        <li> 2 means that it is very essential. The task is impossible to be finished without it.</li>
+                        <li> 1 means that it is somewhat essential. The step seems to be important, but you are not so
+                            sure.
+                        </li>
+                        <li> 0 means that you do not have a preference.</li>
+                        <li> -1 means that it is somewhat not essential. Removing it may have an impact on the overall
+                            process.
+                        </li>
+                        <li> -2 means that it is not essential at all. Removing it will not influence the overall
+                            process
+                        </li>
+                    </ul>
+                </li>
+                <li>Question type 3: If you can think of any other steps that are essential. Please write them down and
+                    where would it happen. One step is good enough, but do not copy from the provided steps. We will ask
+                    another annotator to verify your answer. As long as you tried your best and do not give obviously
+                    irrelevant steps, you will get the full reward. If you really cannot think of any, just input/select
+                    N/A
+                </li>
+
+            </ul>
+        </detailed-instructions>
+
+        <positive-example>
+            <p>For task "get a Ph.D. degree"</p>
+            <p>"Defense the dissertation" is an essential step.</p>
+        </positive-example>
+
+        <negative-example>
+            <p>For task "get a Ph.D. degree"</p>
+            <p>"Find an internship" is not an essential step.</p>
+        </negative-example>
+    </crowd-instructions>
+    <div>
+        <p>To finish the task &quot;${process_name}&quot;, we need the following step.</p>
+        <h3>Step 1</h3>
+        ${step_1}
+        <h3>Step 2</h3>
+        ${step_2}
+        <h3>Step_3</h3>
+        ${step_3}
+        <h3>Step_4</h3>
+        ${step_4}
+
+
+
+        <p>Check this box if you are familiar with this task</p>
+        <crowd-checkbox name="${process_id}_familiar" checked="true" required></crowd-checkbox>
+    </div>
+
+    <div>
+        <p>On a scale of -2 to 2, how essential is step 1?</p>
+        <crowd-slider name="${process_id}_s1" min="-2" max="2" step="1" pin="true" required></crowd-slider>
+    </div>
+    <div>
+        <p>On a scale of -2 to 2, how essential is step 2?</p>
+        <crowd-slider name="${process_id}_s2" min="-2" max="2" step="1" pin="true" required></crowd-slider>
+    </div>
+
+    <div>
+        <p>On a scale of -2 to 2, how essential is step 3?</p>
+        <crowd-slider name="${process_id}_s3" min="-2" max="2" step="1" pin="true" required></crowd-slider>
+    </div>
+
+    <div>
+        <p>On a scale of -2 to 2, how essential is step 4?</p>
+        <crowd-slider name="${process_id}_s4" min="-2" max="2" step="1" pin="true" required></crowd-slider>
+    </div>
+
+
+
+
+
+    <div>
+        <p>Can you think of any other steps that are essential for finishing this task that are not shown here?</p>
+        <crowd-text-area name="${process_id}_missing" rows="4" placeholder="Anything in mind?"
+                         required></crowd-text-area>
+        <crowd-classifier
+                name="${process_id}_missing_position"
+                categories="['Before Step 1', 'Between Step 1 and Step 2', 'Between Step 2 and Step 3', 'Between Step 3 and Step 4', 'After Step 4', 'N/A']"
+        >
+
+            <classification-target>
+                <!-- The text you want classified will be substituted for the "text" variable when you
+                       publish a batch with a CSV input file containing multiple text items  -->
+                Where would this missing step happen?
+            </classification-target>
+
+
+        </crowd-classifier>
+    </div>
+
+
+</crowd-form>
+
+

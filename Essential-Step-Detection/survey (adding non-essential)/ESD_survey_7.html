@@ -1,0 +1,99 @@
+<!-- You must include this JavaScript file -->
+<script src="https://assets.crowd.aws/crowd-html-elements.js"></script>
+
+<!-- For the full list of available Crowd HTML Elements and their input/output documentation,
+      please refer to https://docs.aws.amazon.com/sagemaker/latest/dg/sms-ui-template-reference.html -->
+
+<!-- You must include crowd-form so that your task submits answers to MTurk -->
+
+
+<style>
+
+    cand {
+        color: #0000FF;
+    }
+
+    candT {
+        color: #059008;
+    }
+
+    candF {
+        color: #FF0000;
+    }
+
+    pron {
+        color: #0000FF;
+    }
+
+</style>
+
+
+<crowd-form answer-format="flatten-objects">
+
+
+    <crowd-instructions link-text="View instructions" link-type="button">
+        <short-summary>
+            <p>In this task, you are given a process name and a list of steps to complete this process. You are required to provide a missing optional step.</p>
+        </short-summary>
+
+        <detailed-instructions>
+            <h3>By optional, we mean that the process can still happen without that step.</h3>
+        </detailed-instructions>
+
+        <positive-example>
+            <p>For task "get a Ph.D. degree"</p>
+            <p>"Defense the dissertation" is an essential step.</p>
+        </positive-example>
+
+        <negative-example>
+            <p>For task "get a Ph.D. degree"</p>
+            <p>"Find an internship" is not an essential step.</p>
+        </negative-example>
+    </crowd-instructions>
+    <div>
+        <p>To finish the task &quot;${process_name}&quot;, we need the following step.</p>
+        <h3>Step 1</h3>
+        ${step_1}
+        <h3>Step 2</h3>
+        ${step_2}
+        <h3>Step_3</h3>
+        ${step_3}
+        <h3>Step_4</h3>
+        ${step_4}
+        <h3>Step_5</h3>
+        ${step_5}
+        <h3>Step 6</h3>
+        ${step_6}
+        <h3>Step 7</h3>
+        ${step_7}
+
+
+
+    </div>
+
+
+
+
+    <div>
+        <p>Please provide a missing optional step that could be part of the process but not essential? (PS: You should not say no)</p>
+        <crowd-text-area name="${process_id}_missing" rows="4" placeholder="Please write here"
+                         required></crowd-text-area>
+        <crowd-classifier
+                name="${process_id}_missing_position"
+                categories="['Before Step 1', 'Between Step 1 and Step 2', 'Between Step 2 and Step 3', 'Between Step 3 and Step 4', 'Between Step 4 and Step 5', 'Between Step 5 and Step 6', 'Between Step 6 and Step 7', 'After Step 7', 'N/A']"
+        >
+
+            <classification-target>
+                <!-- The text you want classified will be substituted for the "text" variable when you
+                       publish a batch with a CSV input file containing multiple text items  -->
+                Where would this missing step happen?
+            </classification-target>
+
+
+        </crowd-classifier>
+    </div>
+
+
+</crowd-form>
+
+

@@ -1,0 +1,69 @@
+<!-- You must include this JavaScript file -->
+<script src="https://assets.crowd.aws/crowd-html-elements.js"></script>
+
+<!-- For the full list of available Crowd HTML Elements and their input/output documentation,
+      please refer to https://docs.aws.amazon.com/sagemaker/latest/dg/sms-ui-template-reference.html -->
+
+<!-- You must include crowd-form so that your task submits answers to MTurk -->
+<crowd-form answer-format="flatten-objects">
+
+    <!-- The crowd-classifier element will create a tool for the Worker to select the
+           correct answer to your question -->
+    <crowd-classifier
+      name="sentiment"
+      categories="['Essential (1)', 'Not Essential (0)', 'Invalid (-1)']"
+      header="Whether the step is essential for finishing the goal?"
+    >
+
+      <classification-target>
+        <!-- The text you want classified will be substituted for the "text" variable when you
+               publish a batch with a CSV input file containing multiple text items  -->
+        Whether "${step}" is essential towards finishing the goal &quot;${process}&quot; or not?
+      </classification-target>
+
+     <!-- Use the short-instructions section for quick instructions that the Worker
+            will see while working on the task. Including some basic examples of
+            good and bad answers here can help get good results. You can include
+            any HTML here. -->
+      <short-instructions>
+       <p>In this task, you are given a goal name and a step of completing this goal. You are required to determine if a step is essential for completing the process or not. A step is essential if without
+                it, it is impossible to finish the process.</p>
+
+          <p>The meanings of different labels are as follows:</p>
+          <p><strong>1</strong>: Essential</p>
+        <p><strong>0</strong>: Not Essential</p>
+        <p><strong>-1</strong>: invalid step (e.g., the step should not be part of the goal or there exist confidential or hostile information in the description.)</p>
+
+
+          <p>Examples:</p>
+          <ul>
+              <li>For task "Get a Ph.D. degree", "Defense the dissertation" is an essential step. You should annotate it as 1.</li>
+              <li>For task "Get a Ph.D. degree", "Find an internship" is not an essential step. You should annotate it as 0.</li>
+              <li>For task "Get a Ph.D. degree", "Sell a cat" is not a step of finishing that goal. You should annotate it as -1.</li>
+          </ul>
+
+      </short-instructions>
+
+        <positive-example>
+            <p>For task "get a Ph.D. degree"</p>
+            <p>"Defense the dissertation" is an essential step.</p>
+        </positive-example>
+
+        <negative-example>
+            <p>For task "get a Ph.D. degree"</p>
+            <p>"Find an internship" is not an essential step.</p>
+        </negative-example>
+
+      <!-- Use the full-instructions section for more detailed instructions that the
+            Worker can open while working on the task. Including more detailed
+            instructions and additional examples of good and bad answers here can
+            help get good results. You can include any HTML here. -->
+      <full-instructions header="Step Essentiality Annotation">
+        <p><strong>1</strong> Essential</p>
+        <p><strong>0</strong> Not Essential</p>
+        <p><strong>-1</strong>: invalid step (e.g., the step should not be part of the goal or there exist confidential or hostile information in the description.)</p>
+        <!--<p>how essential is "${step}" towards finishing the goal &quot;${process}&quot;?</p>-->
+      </full-instructions>
+
+    </crowd-classifier>
+</crowd-form>

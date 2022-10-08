@@ -1,0 +1,101 @@
+process,step,annotation,iaa,true_label,pair_id
+Throat Sing - Throat Singing," Make an ""R"" or ""L"" sound with the tip of your tongue","[0, 0, 0, 1, 1]",0.4,0,1
+Make Sweet Curry Powder, Mix the spices together in a small mixing bowl,"[1, 1, 2, 2, 1]",1.0,1,2
+Find Fulfilling Work - Finding a Possible Career Path, Make a list of options,"[1, 1, 1, 2, 1]",1.0,1,3
+Make a Vacuum Chamber - Making a Lid for a Cooking Pot Pressure Cooker,Find or buy a pressure cooker pot,"[0, 1, -1, 1, 2]",0.4,1,4
+Buy a Harley Davidson - Considering a Used Harley-Davidson, Search classified ads,"[1, 0, 1, 1, 1]",0.6,1,5
+Make Bottle Penguins - Adding Optional Details," Glue a pompom to the top of the hat, if desired","[1, 2, 2, 1, 1]",1.0,1,6
+Give Flat Hair Volume - Drying Your Hair to Add Volume, Preserve the effect with hairspray (optional),"[2, 1, -1, 2, 2]",0.6,1,7
+Clear Your Browser's Cache - Firefox on Desktop, Click Library,"[2, 2, 2, -1, 2]",0.6,1,8
+Go to Sleep Fast for Kids - Starting a Bedtime Routine,Plan to start your bedtime routine about 30 to 60 minutes before bedtime,"[2, 1, 2, 0, -1]",0.4,1,9
+Clean Brass Handles - Cleaning Brass Plate, Use a commercial cleaning product for heavily tarnished brass plate,"[1, 1, 2, 0, 1]",0.6,1,10
+Kill English Ivy - Killing Ivy on Trees, Cut away the ivy on the ground,"[1, 0, 1, 2, 0]",0.4,1,11
+Pressure Wash Vinyl Siding - Spraying on the Cleaning Solution,Use an appropriate cleaning solution,"[1, 1, 1, 1, 0]",0.6,1,12
+Make a Vegan Avocado Chocolate Cake," Add the vegetable oil, water, vinegar and vanilla in the other mixing bowl","[2, 2, 1, 2, 0]",0.6,1,13
+Play Chopsticks on a Keyboard or Piano - Playing the Song, Start from the top,"[2, 0, 2, 1, 1]",0.6,1,14
+Take Legal Action As a Victim of Violence at a Bar - Suing Your Assailant, Draft your complaint,"[1, 1, 1, 2, 2]",1.0,1,15
+Make Tiger Tails - Pretzel tiger tails,Melt orange-colored candy melts in a microwave,"[1, 2, 0, 2, 1]",0.6,1,16
+Make Clove Oil - Gathering Your Ingredients and Supplies," Find a dark, sanitized glass jar to keep the oil in","[1, 1, 0, 1, 1]",0.6,1,17
+Find a Nursing Home for a Senior - Getting Set up in the Nursing Home, Gather all of your loved one's medical and personal information,"[1, 1, -1, 2, 1]",0.6,1,18
+Change Your General Preferences on Safari - iOS," Tap ""Clear History and Website Data"" to delete your browsing data","[1, 2, 0, 1, 1]",0.6,1,19
+Write a Hypothesis for an Essay - Composing the Hypothesis, Look at previous studies that focus on what you want to do,"[1, 1, 1, 1, 0]",0.6,1,20
+Accessorize Your Kitchen - Giving Your Kitchen a Theme and Colour Scheme,Choose a theme and color scheme that is compatible with the colors in your other main living areas.,"[-1.0, 1.0, 1.0, 1.0, 1.0]",0.6,1,21
+Stay Organized when Moving,Provide water for everyone helping,"[1.0, 2.0, 1.0, -1.0, 2.0]",0.6,1,22
+Hide a Lip Piercing from Parents or Bosses - Concealing Getting the Piercing,Check your state's laws,"[2, 1, 1, 2, 1]",1.0,1,23
+Pressure Wash Vinyl Siding - Spraying on the Cleaning Solution," Blast the surface clean using smooth, sweeping motions","[0, 1, 1, 1, 1]",0.6,1,24
+Test the Heating Element in a Dryer - Examining an Electric Dryer, Remove the heating coil panel with a screwdriver,"[1, 1, -1, 1, 1]",0.6,1,25
+Bypass Your School's Filter on Any iOS Device (Hack Free) - Using a Web Proxy, Enjoy unfiltered access to the Internet,"[1, 2, 1, 2, 1]",1.0,1,26
+Perform a Dihybrid Cross Using the Forked‐Line Method - Setting Up the Problem,"First, draw a large square and divide it into 4 equal squares.","[0.0, 1.0, 0.0, 1.0, 1.0]",0.4,1,27
+Use Your Android As Your Workout Trainer - Using My Coach - Workout Trainer, Take a rest,"[1, -1, 0, 1, 2]",0.4,1,28
+Calculate Bond Discount Rate - Calculating the Present Value of the Bond's Principal, Calculate the total number of interest payments,"[1, 1, 2, 1, 2]",1.0,1,29
+Install Internet Explorer - Using Windows 10, Click Yes to confirm,"[1, 2, 1, 1, 2]",1.0,1,30
+Palpate Axillary Lymph Nodes - Performing the Exam, Moisturize your skin with lotion or soap to reduce friction,"[1, 1, -1, 1, 1]",0.6,1,31
+Tell If Someone Is in Your Closet," Look for any signs that your closet has been opened or tampered with, generally a badly closed door or something moved out of the way","[0, 1, 2, 2, 1]",0.6,1,32
+Make a Canoe - Carving Your Dugout Canoe, Create a flat bottom for your canoe,"[1, 0, 1, 1, 0]",0.4,1,33
+Answer What Interests You About This Job - Showing Why You Like the Company, Incorporate what you know into your answer,"[1, 2, 1, 1, 0]",0.6,1,34
+Learn Hypnosis - Mastering a Hypnotic Routine,Gain the other person’s attention with a story or task,"[0, 1, 1, 1, 0]",0.4,1,35
+Eject the CD Tray for Windows 10 - Ejecting from Inside a Desktop PC,Turn off your PC,"[1, -1, 1, 1, 2]",0.6,1,36
+Be Ready and Comfortable Kissing a Guy,Spray nice perfume,"[1, 1, -1, 0, -1]",0.4,0,37
+Clean Brass Handles - Cleaning Brass Plate, Be especially gentle with brass-plated handles,"[1, 0, 1, 1, 0]",0.4,1,38
+Store Avocado - Packaging a Cut Avocado, Put your avocado back into its original shape if you can,"[1, 1, 1, 1, -1]",0.6,1,39
+Learn Cooking by Yourself - Mastering the Basics, Try your hand at soups and stews,"[0, 1, 2, 2, 2]",0.6,1,40
+Use Instacart on an iPhone or iPad, Use the buttons below the product page to add items to your Cart,"[2, 2, 1, 0, 0]",0.4,1,41
+Write Headings for an Article - Writing Headings for APA Articles,Include a running head/page header,"[2, 2, 1, 1, 2]",1.0,1,42
+Clean a Dog's Wound - Seeking Professional Veterinary Help,Don’t wait to see a vet for eye injuries,"[2, 2, 1, 0, 1]",0.6,1,43
+Peel and Devein Shrimp - Deveining Shrimp, Pull the vein out gently with your fingers,"[2, 1, 1, 2, 1]",1.0,1,44
+Make Rainbow Frosting - Skittles Rainbow Frosting, Pour one color of the melted Skittles into each bowl and stir well,"[2, 1, 1, 1, 0]",0.6,1,45
+Open CSV Files - OpenOffice Calc, Click on the “Data” menu and select “Text to Columns” (optional),"[1, 0, -1, 2, 0]",0.4,0,46
+Use Massage for Neck Pain - Giving Yourself a Massage, Focus on the neck and shoulders,"[1, 0, 2, 2, 2]",0.6,1,47
+Test the Heating Element in a Dryer - Examining an Electric Dryer, Attach the black and red multimeter probes to the leads on the heating coils,"[1, 2, 0, 1, 1]",0.6,1,48
+Paint Patio Furniture - Refinishing Rusty Metal Furniture, Give your finished furniture 24 hours to dry,"[1, 1, 0, 0, 2]",0.4,1,49
+Make a Temporary Tattoo Last Longer - Preparing Your Skin, Choose an area where the skin won't constantly be moving or flexing or coming into contact with oils and other substances,"[1, 0, 2, 1, 1]",0.6,1,50
+Measure an Angle Using a Protractor - Calculating Reflex Angles, Place your protractor on the straight line to measure the acute angle,"[-1, 2, 1, 1, 1]",0.6,1,51
+Play With Your Hermit Crab - Handling Your Hermit Crab, Don’t remove your hermit crab from its shell or pull on its limbs,"[1, 2, 2, 1, 1]",1.0,1,52
+Check Your SAT Score - Evaluating Other Relevant Information,Answer the questions,"[2.0, 1.0, 0.0, 1.0, 1.0]",0.6,1,53
+Kill Ants in Your House - Eliminating a House Ant Colony,Lay out an “ant buffet” to see which bait food the ants prefer,"[2, 2, 1, 2, 1]",1.0,1,54
+Act on a Movie Date at Your Boyfriend's House - Making A Good First Impression, Bring some snacks or a small gift,"[1, 2, 0, 1, -1]",0.4,1,55
+Cook Goose Breasts - Pan-Roasted Goose Breasts,Salt the goose breasts and bring them to room temperature,"[2, 2, 1, 2, 2]",1.0,1,56
+Pressure Wash Vinyl Siding - Spraying on the Cleaning Solution, Begin with a small section of the siding,"[0, 2, 1, 1, 0]",0.4,1,57
+"Cut a Cabbage Into Wedges - Cutting Long, Skinny Cabbage", Rinse the cabbage,"[1, 1, 0, 1, 1]",0.6,1,58
+Update Your Vehicle Registration - Changing Your Name,Gather documentation and proof of identity,"[0, 1, -1, 0, 2]",0.4,0,59
+Stop Hormone Replacement Therapy (HRT) - Stopping Hormones, Take lower doses of hormones,"[2, 1, 2, 1, 1]",1.0,1,60
+Make a Paper Hat - Making a Sailor or Alpine Hat, Flip the paper over and fold the second flap up too,"[0, 1, 1, 0, 1]",0.4,1,61
+Survive in the Woods - Starting a Fire, Collect larger logs for fuel,"[2, 1, 1, 1, 2]",1.0,1,62
+Get a Japanese Passport - Getting Your Passport, Fill out the application form at your local Ward Office,"[1, 2, 1, 1, 2]",1.0,1,63
+Toast Sunflower Seeds - Microwave Toasting,Spread the sunflowers seeds out in a microwave-safe dish,"[2, 1, 1, 2, 2]",1.0,1,64
+Report International Fraud - Reporting International Scams to EConsumer, Choose your complaint subject,"[2, 1, 2, -1, 2]",0.6,1,65
+File a Case in Consumer Court - Resolving Your Case, File an appeal within 30 days of receipt of an order,"[2, 2, 0, 0, 2]",0.4,1,66
+Preserve Lemons - Prepping the Lemons, Slice off the stems,"[1, 1, 1, 2, 0]",0.6,1,67
+Do the 'Pass It On' Trick in Class - Flash mobs, Understand the risk,"[-1, 1, 1, 1, 0]",0.4,1,68
+Stain Wood Filler - Applying the Stain,Second coat of paint helps to remove the stain.,"[2.0, 1.0, 1.0, -1.0, 1.0]",0.6,1,69
+Make Sweet Curry Powder,Get ingredients,"[2.0, -1.0, 1.0, 1.0, 1.0]",0.6,1,70
+Make a Tight Turn Quickly in a Car - Using Your Handbrake, Turn back into the direction of the turn,"[1, -2, 1, 2, 1]",0.6,1,71
+Draw Cute Animals - A Cute Tiger, Draw the ears using small triangles,"[0, 0, 2, 1, 1]",0.4,1,72
+Build a Home Studio for Computer Based Music Recording - Building a Home Studio," If you have trouble with any of the above, pick up a Mixing / Studio Book","[1, 2, 1, 2, -2]",0.6,1,73
+Pack Pants - Folding Pants, Fold them in half once more,"[1, 1, 1, 1, 1]",1.0,1,74
+Write Headings for an Article - Writing Headings for APA Articles, Compose a level one heading,"[1, 1, 1, 1, 2]",1.0,1,75
+Play iPad Videos on TV - Using an Adapter, Watch your videos,"[0, 1, 2, 2, 1]",0.6,1,76
+Identify Songs Using Melody - Using Technology,Find the right app or program for you,"[1, 1, 0, 1, 1]",0.6,1,77
+Paint With Gouache - Finishing Your Painting, Add dimension to your design using shading,"[1, 2, 1, 2, 1]",1.0,1,78
+Test Liver Function - Getting the Blood Test, Discuss any medications you are taking with your doctor,"[2, 1, 1, 2, 1]",1.0,1,79
+Cook Brazilian Rice - Method One: Traditional Brazilian Rice, Pour in the hot water,"[1, 2, 2, 0, 1]",0.6,1,80
+Password Protect a PDF - Using PDF2Go," Scroll down to the ""Settings"" section","[0, 2, 2, 0, 2]",0.4,1,81
+Make Bottle Penguins - Adding Optional Details,"Give your penguin character with lashes, eyebrows, and/or blush","[1, 2, 2, 2, 1]",1.0,1,82
+Palpate Axillary Lymph Nodes - Performing the Exam, Press deeply in a circular motion,"[1, 1, 1, 0, 0]",0.4,1,83
+Submit a Link to a Web Directory, Finally save the URL of the page where the link will be submitted for future reference,"[1, 1, 0, 2, 2]",0.6,1,84
+Grow Taro - Growing Shoots on Tubers, Wait a few weeks for the shoots to develop,"[1, 2, 1, 2, 2]",1.0,1,85
+Add a Color Palette in Photoshop from a Photograph - Using the Palette, Find and select the palette that you just created,"[1, -1, 2, 1, 1]",0.6,1,86
+Install Internet Explorer - Using Windows 10, Press Ctrl+J in your web browser,"[0, 2, 1, 1, 2]",0.6,1,87
+Brown a Roast for Cooking in a Crockpot, Heat 2 tablespoons (30 mm) of cooking oil in a large Dutch oven on medium high heat,"[2, 1, 1, -1, 1]",0.6,1,88
+Make a Pumpkin Cake - Vegan Pumpkin Cake, Combine the wet ingredients with the dry,"[2, 1, -1, 2, 0]",0.4,1,89
+Peel and Devein Shrimp - Deveining Shrimp, Rinse your fingers and the shrimp,"[0, 1, 1, 1, 1]",0.6,1,90
+Open CSV Files - OpenOffice Calc, Select the “Separate By” radio button,"[2, 0, -1, 1, 0]",0.4,0,91
+Peel a Pumpkin - Peeling with a Vegetable Peeler," Peel the skin using the peeler, starting from the side closest to you","[1, 1, 1, 1, 0]",0.6,1,92
+Transfer Nokia Contacts to a Samsung - Syncing Google Contacts, Tap Google,"[1, 0, 1, 2, 0]",0.4,1,93
+Play French Darts,Get in playing position.,"[2.0, 2.0, 2.0, 0.0, 1.0]",0.6,1,94
+Repair a Book's Binding - Reattaching Loose Pages, Hold the book closed with a rubber band,"[2, 2, 0, 2, 2]",0.6,1,95
+Seed a Pomegranate By Hand - Removing Seeds in Water,Gently pry the seeds from the pomegranate skin,"[1.0, 1.0, 1.0, -1.0, 0.0, 2.0, 2.0, 2.0, 1.0, 1.0]",0.4,1,96
+Learn Cooking by Yourself - Mastering the Basics,Review safe cooking guidelines,"[0, 1, 2, 2, 2]",0.6,1,97
+Make Pomegranate Seltzer - Preparing a Cranberry Pomegranate Seltzer, Keep extra seltzer drink in the refrigerator,"[1, 2, 1, 2, -1]",0.6,1,98
+Apply for a Marriage License in Kentucky - Getting a Marriage License in Kentucky if Both Parties are over 18, Pay the fee for the marriage license,"[1, 2, -1, 0, 2]",0.4,1,99
+Change the Root Password in Linux - With the Current Root Password, Type a new password and press ↵ Enter,"[2, 1, 1, 2, 1]",1.0,1,100

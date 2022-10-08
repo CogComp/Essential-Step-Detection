@@ -1,0 +1,38 @@
+,Is Step 1 Essential?,Is Step 1 a valid subevent?,Is Step 2 Essential?,Is Step 2 a valid subevent?,Is Step 3 Essential?,Is Step 3 a valid subevent?,process,step_1,step_2,step_3
+0,0,0,0,0,0,0,[V: improve] current conditions,[NomEvent: gain],[V: increased] The lagging index,[NomEvent: advance]
+1,0,0,0,0,0,0,by fans [V: mobbed] A Premier League superstar,they [V: mobbed] him,[NomEvent: commotion],they [V: shouting] We love you Cisse
+2,0,0,0,0,0,0,they [V: mobbed] him,by fans [V: mobbed] A Premier League superstar,[NomEvent: commotion],they [V: shouting] We love you Cisse
+3,0,0,0,0,0,0,[NomEvent: commotion],they [V: mobbed] him,by fans [V: mobbed] A Premier League superstar,they [V: shouting] We love you Cisse
+4,0,0,0,0,0,0,[NomEvent: investigation],The U.S. Federal Trade Commission [V: reached],the FTC [V: looking] for,[V: comes] The FTC 's review of the deal
+5,0,0,0,0,0,0,[NomEvent: Game],They [V: shot] a season - low 32 percent,The Sixers [V: scored] a measly 26 first - half points,[NomEvent: loss]
+6,0,0,0,0,0,0,celebrities [V: reacting] to it,Neil Patrick Harris [V: wrote] a simple ' Bravo,the many celebrities [V: cheered] for President Obama 's gay marriage support,Even the straight guys like Adam Levine of Maroon 5 [V: thanked] Obama
+7,0,0,0,0,0,0,[NomEvent: operations],[V: rescued] 5 people,[NomEvent: operation],[NomEvent: flights]
+8,0,0,0,0,0,0,[NomEvent: operations],[V: rescued] 5 people,[NomEvent: operation],[NomEvent: flights]
+9,0,0,0,0,0,0,[NomEvent: deadlock],Tsipras [V: speaking],by the country 's president [V: convened] the next round of coalition talks,"Leftists leader Alexis Tsipras [V: met] with President Karolos Papoulias , along with the leaders of Greece 's two other main parties - the conservative "" New Democracy "" and the socialist "" PASOK """
+10,0,0,0,0,0,0,[NomEvent: talks],[NomEvent: death],[NomEvent: assassination],[NomEvent: killing]
+11,0,0,0,0,0,0,[NomEvent: flight],A Soyuz spaceship carrying two Russians and one American astronaut [V: blasted],"[V: launched] NASA astronaut Joseph Acaba , veteran cosmonaut Gennady Padalka and Sergei Revin , who is departing on his maiden space flight",[NomEvent: signal]
+12,0,0,0,0,0,0,[NomEvent: flight],A Soyuz spaceship carrying two Russians and one American astronaut [V: blasted],"[V: launched] NASA astronaut Joseph Acaba , veteran cosmonaut Gennady Padalka and Sergei Revin , who is departing on his maiden space flight",[NomEvent: signal]
+13,0,0,0,0,0,0,[NomEvent: flight],A Soyuz spaceship carrying two Russians and one American astronaut [V: blasted],"[V: launched] NASA astronaut Joseph Acaba , veteran cosmonaut Gennady Padalka and Sergei Revin , who is departing on his maiden space flight",[NomEvent: signal]
+14,0,0,0,0,0,0,[NomEvent: celebrations],[NomEvent: launches],[NomEvent: mishaps],[NomEvent: mission]
+15,0,0,0,0,0,0,the committee [V: revising] its original first - round turnout figure of 62 percent,the committee [V: raised] eyebrows,[NomEvent: void],it [V: revised] turnout
+16,0,0,0,0,0,0,it [V: revised] turnout,the committee [V: raised] eyebrows,the committee [V: revising] its original first - round turnout figure of 62 percent,[NomEvent: void]
+17,0,0,0,0,0,0,[NomEvent: operation],[V: found] The body of a young man,[NomEvent: discovery],[NomEvent: discovery]
+18,0,0,0,0,0,0,[NomEvent: operation],[V: found] The body of a young man,[NomEvent: discovery],[NomEvent: discovery]
+19,0,0,0,0,0,0,[NomEvent: operation],[V: arrested] a man in his 20s,"[V: seized] 248,000 cigarettes , 51 kilos of tobacco and a small quantity of herbal cannabis",[NomEvent: raid]
+20,0,0,0,0,0,0,[NomEvent: trafficking],[V: arrested] the men,[V: arrested] They,[V: arrested] the men
+21,0,0,0,0,0,0,[NomEvent: reforms],it [V: emerge] from decades of authoritarian rule and diplomatic isolation,[NomEvent: election],[NomEvent: election]
+22,0,0,0,0,0,0,[NomEvent: reforms],it [V: emerge] from decades of authoritarian rule and diplomatic isolation,[NomEvent: election],[NomEvent: election]
+23,0,0,0,0,0,0,[NomEvent: reforms],it [V: emerge] from decades of authoritarian rule and diplomatic isolation,[NomEvent: election],[NomEvent: election]
+24,0,0,0,0,0,0,[NomEvent: reforms],it [V: emerge] from decades of authoritarian rule and diplomatic isolation,[NomEvent: election],[NomEvent: election]
+25,0,0,0,0,0,0,[NomEvent: reforms],it [V: emerge] from decades of authoritarian rule and diplomatic isolation,[NomEvent: election],[NomEvent: election]
+26,0,0,0,0,0,0,[NomEvent: autopsy],Medical examiners [V: found] evidence of marijuana,they [V: tested] Martin 's blood and urine,"medical examiners [V: found] THC , the psychoactive ingredient in marijuana"
+27,0,0,0,0,0,0,[NomEvent: pilgrimage],[V: arrested] what,[V: arrested] he,[NomEvent: arrest]
+28,0,0,0,0,0,0,[NomEvent: race],[NomEvent: rally],the orange - coloured car [V: competing],[NomEvent: rally]
+29,0,0,0,0,0,0,[NomEvent: election],[V: funnelled] hundreds of millions of dollars in foreign funds,[NomEvent: vote],His ruling United Russia party [V: lost] a significant number of parliamentary seats
+30,0,0,0,0,0,0,[NomEvent: election],[V: funnelled] hundreds of millions of dollars in foreign funds,[NomEvent: vote],His ruling United Russia party [V: lost] a significant number of parliamentary seats
+31,0,0,0,0,0,0,[NomEvent: election],[V: funnelled] hundreds of millions of dollars in foreign funds,[NomEvent: vote],His ruling United Russia party [V: lost] a significant number of parliamentary seats
+32,0,0,0,0,0,0,[NomEvent: raids],[NomEvent: strikes],The strikes [V: killed] one Palestinian militant,The strikes [V: wounded] two others
+33,0,0,0,0,0,0,[NomEvent: strikes],The strikes [V: killed] one Palestinian militant,The strikes [V: wounded] two others,[NomEvent: raids]
+34,0,0,0,0,0,0,[NomEvent: protest],"Lawyers , union members , and others [V: marched]","[V: burned] A dummy marked "" Nato ""","Lawyers , union members , and others [V: carrying] Pakistani flag and signs reading "" Go America Go "" and "" We Condemn Nato Attack """
+35,0,0,0,0,0,0,[NomEvent: attack],unknown men [V: fired] rockets,[NomEvent: ablaze],assailants [V: torched] more than 20 tankers in Pakistan
+36,0,0,0,0,0,0,[NomEvent: arrest],[NomEvent: repression],[NomEvent: confinement],[V: Released] Suu Kyi

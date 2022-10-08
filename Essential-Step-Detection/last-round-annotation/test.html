@@ -1,0 +1,81 @@
+<!-- You must include this JavaScript file -->
+<script src="https://assets.crowd.aws/crowd-html-elements.js"></script>
+
+<!-- For the full list of available Crowd HTML Elements and their input/output documentation,
+      please refer to https://docs.aws.amazon.com/sagemaker/latest/dg/sms-ui-template-reference.html -->
+
+<!-- You must include crowd-form so that your task submits answers to MTurk -->
+
+
+<style>
+
+    cand {
+        color: #0000FF;
+    }
+
+    candT {
+        color: #059008;
+    }
+
+    candF {
+        color: #FF0000;
+    }
+
+    pron {
+        color: #0000FF;
+    }
+
+</style>
+
+
+<crowd-form answer-format="flatten-objects">
+
+
+    <crowd-instructions link-text="View instructions" link-type="button">
+        <short-summary>
+            <p>In this task, you are given a goal and a step of completing this goal. You are required to determine if a step is essential for completing the goal or not. A step is essential if without
+                it, it is impossible to finish the goal.</p>
+        </short-summary>
+
+        <detailed-instructions>
+            <h3>For each (step, goal) pair, you are invited to indicate how essential is the step towards finishing the goal.</h3>
+            From -2 to 2,
+                    <ul>
+                        <li> 2 means that it is very essential. The goal is impossible to be finished without it.</li>
+                        <li> 1 means that it is somewhat essential. The step seems to be important, but you are not so sure.
+                        </li>
+                        <li> 0 means that you do not have a preference.</li>
+                        <li> -1 means that it is somewhat not essential. Removing it may have an impact on the overall goal.
+                        </li>
+                        <li> -2 means that it is not essential at all. Removing it will not influence the overall goal
+                        </li>
+                    </ul>
+        </detailed-instructions>
+
+        <positive-example>
+            <p>For task "get a Ph.D. degree"</p>
+            <p>"Defense the dissertation" is an essential step.</p>
+        </positive-example>
+
+        <negative-example>
+            <p>For task "get a Ph.D. degree"</p>
+            <p>"Find an internship" is not an essential step.</p>
+        </negative-example>
+    </crowd-instructions>
+
+    <div>
+        <p>On a scale of -2 to 2, if we fail to finish the step "${step}", how likely we will also fail the goal &quot;${process}&quot;?</p>
+        <crowd-slider name="${pair_id}_s1" min="-2" max="2" step="1" pin="true" required></crowd-slider>
+    </div>
+
+
+
+
+
+
+
+
+
+</crowd-form>
+
+
