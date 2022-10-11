@@ -1,7 +1,7 @@
 # Installation
 Setup the environment with environment.yml.
 
-(For Windows, installing allennlp may fail, you may should download torch 1.7.0 and torchvision 0.8.1 from https://download.pytorch.org/whl/torch_stable.html manually.)
+(For Windows, installing allennlp may fail, you may should download torch 1.7.0 and torchvision 0.8.1 from https://download.pytorch.org/whl/torch_stable.html and use pip to install them manually.)
 # Run the code
 data_process.py is the code to generate the json file which is also contained in this folder, so you needn't run it. 
 
