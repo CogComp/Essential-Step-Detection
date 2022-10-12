@@ -6,15 +6,15 @@ import json
 import argparse
 
 def load_model(model_name):
-    tokenizer = BertTokenizer.from_pretrained(model_name+'-uncased')
-    model = BertForNextSentencePrediction.from_pretrained(model_name+'-uncased')
+    tokenizer = BertTokenizer.from_pretrained(model_name)
+    model = BertForNextSentencePrediction.from_pretrained(model_name)
     return tokenizer,model
 
 def main():
     parser = argparse.ArgumentParser(description='variables')
     parser.add_argument('-c', '--core',action='store_true',default=False, help='whether remain the full sentences of steps')
     parser.add_argument('-S','--SRL',action='store_true',default=False, help='whether use SRL model to parse the steps')
-    parser.add_argument('-model','--model',default='bert-base',help='which size of bert to choose')
+    parser.add_argument('-model','--model',default='bert-base-uncased',help='which kind of bert to choose')
     args=parser.parse_args()
     pred=[]
     labels=[]
