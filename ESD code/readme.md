@@ -13,15 +13,15 @@ add `-c` to the end of the command for cases that use the core of steps and add 
 
 ## Settings of models
 
-for the probing baseline and nsp baseline, add `-model [MODEL_NAME]` to use model of different sizes to compute the score. 
+for probing baseline and nsp baseline, add `-model [MODEL_NAME]` to use models of different sizes to compute the score. 
 
-for the probing baseline, you can use:
+for probing baseline, you can use:
 `-model gpt2` `-model gpt2-medium` `-model gpt2-large` `-model gpt2-xl`
 
-for the nsp baseline, you can use:
+for nsp baseline, you can use:
 `-model bert-base-uncased` `-model bert-large-uncased` 
 
-(for cased berts it may also work, though they weren't used in our experiments)
+(Cased berts may also work, though they weren't used in our experiments.)
 ## Results
 Then, you should be able to replicate our results with different scripts respectively.
 
