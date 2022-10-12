@@ -5,15 +5,16 @@ from sklearn.metrics import roc_auc_score
 import json
 import argparse
 
-def load_model():
-    tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')
-    model = BertForNextSentencePrediction.from_pretrained('bert-base-uncased')
+def load_model(model_name):
+    tokenizer = BertTokenizer.from_pretrained(model_name+'-uncased')
+    model = BertForNextSentencePrediction.from_pretrained(model_name+'-uncased')
     return tokenizer,model
 
 def main():
     parser = argparse.ArgumentParser(description='variables')
     parser.add_argument('-c', '--core',action='store_true',default=False, help='whether remain the full sentences of steps')
     parser.add_argument('-S','--SRL',action='store_true',default=False, help='whether use SRL model to parse the steps')
+    parser.add_argument('-model','--model',default='bert-base',help='which size of bert to choose')
     args=parser.parse_args()
     pred=[]
     labels=[]
@@ -28,7 +29,7 @@ def main():
         predictor = load_parse_model()  
     data=open('all_pairs.json','r')
     data=json.load(data)
-    tokenizer,model = load_model()
+    tokenizer,model = load_model(args.model)
     for dataitem in data:
         goal=getgoal(dataitem['goal'],core=args.core)#True)#
         step=dataitem['step']
